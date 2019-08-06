@@ -35,7 +35,7 @@ search_radius = 20000
 #Max additional page tokens
 max_addl_pages = 2
 
-#Specified coordinates to search
+#EDIT - SPECIFIED COORDINATES TO SEARCH
 search_coords = {'coords': [
                             {'lat': 38.702607, 'lng': -121.406366},
                             {'lat': 38.478354, 'lng': -121.464212},
