@@ -7,13 +7,15 @@ import time
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
+#EDIT - GMAPS API CREDS
 from get_creds import *
+maps_api_key = get_gmapskey()
 
+#EDIT - EXPORT CSV PATH
 master_export_dir = r'C:\Users\Ryan.Cope\Desktop\PlacesMaster.csv'
 detail_export_dir = r'C:\Users\Ryan.Cope\Desktop\PlacesDetails.csv'
 
-maps_api_key = get_gmapskey()
-#List of accepted place types
+#EDIT - LIST OF ACCEPTED PLACE TYPES
 accepted_types = [
 'supermarket',
 'liquor_store',
@@ -21,13 +23,13 @@ accepted_types = [
 'convenience_store'
 ]
 
-#List of search strings
+#EDIT - LIST OF SEARCH KEYWORDS
 search_keywords = [
 'beer',
 'wine'
 ]
 
-#Meter radius for each point below`
+#EDIT - SEARCH RADIUS
 search_radius = 20000
 
 #Max additional page tokens
