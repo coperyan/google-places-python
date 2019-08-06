@@ -15,16 +15,16 @@ detail_export_dir = r'C:\Users\Ryan.Cope\Desktop\PlacesDetails.csv'
 maps_api_key = get_gmapskey()
 #List of accepted place types
 accepted_types = [
-'car_dealer',
-'car_rental',
-'car_repair',
-'gas_station',
+'supermarket',
+'liquor_store',
+'bar',
+'convenience_store'
 ]
 
 #List of search strings
 search_keywords = [
-'oil change',
-'lube shop',
+'beer',
+'wine'
 ]
 
 #Meter radius for each point below`
@@ -33,7 +33,7 @@ search_radius = 20000
 #Max additional page tokens
 max_addl_pages = 2
 
-#Dictionary with search coords
+#Specified coordinates to search
 search_coords = {'coords': [
                             {'lat': 38.702607, 'lng': -121.406366},
                             {'lat': 38.478354, 'lng': -121.464212},
